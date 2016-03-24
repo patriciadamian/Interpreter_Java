@@ -2,6 +2,7 @@
 ToyLanguage Interpreter
 The idea of this project is to create an interpreter for a new programming language, ToyLanguage.
 The purpose of this project was to make a brief analysis of how things work behind the execution of a program.
+The graphic interface was made using JavaFX Scene Builder.
 
 Toy Language Description:
 A program (Prg) in this language consists of a statement (Stmt) as follows:
