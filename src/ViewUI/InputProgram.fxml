@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewUI.InputProgramCtrl">
+   <children>
+      <TextArea fx:id="preview" layoutX="17.0" layoutY="21.0" prefHeight="217.0" prefWidth="565.0" />
+      <Button fx:id="backBtn" layoutX="70.0" layoutY="296.0" mnemonicParsing="false" onAction="#actionBack" prefHeight="31.0" prefWidth="112.0" text="Back" />
+      <Button fx:id="newProgramBtn" layoutX="418.0" layoutY="296.0" mnemonicParsing="false" onAction="#actionNewProgram" text="New Program" />
+   </children>
+</AnchorPane>
